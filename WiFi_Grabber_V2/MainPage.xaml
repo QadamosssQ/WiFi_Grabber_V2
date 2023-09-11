@@ -1,71 +1,110 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WiFi_Grabber_V2.MainPage">
-
-     <StackLayout>
-        <Label Text="WiFi Grabber V2"
-               FontSize="50"
-               FontAttributes="Bold"
-               HorizontalOptions="Center"
-               Margin="0, 40, 0, 0"
-        ></Label>
-         
-        <Label Text="Improved WiFi Grabber Graphic"
-               FontSize="20"
-               HorizontalOptions="Center"
-        ></Label>
-         
-        <Label Text="Choose a WiFi Network"
-               FontSize="30"
-               Margin="30, 30, 0, 20"
-        ></Label>
-         
-         <Frame Margin="20, 0, 20, 0" HeightRequest="200">
-            <ScrollView>
-                <ListView Margin="10, 0">
-                    <ListView.ItemsSource>
-                        
-                        <x:Array Type="{x:Type x:String}">
-                            <x:String>mono</x:String>
-                            <x:String>monodroid</x:String>
-                            <x:String>monotouch</x:String>
-                            <x:String>monorail</x:String>
-                            <x:String>monodevelop</x:String>
-                            <x:String>monotone</x:String>
-                            <x:String>monopoly</x:String>
-                            <x:String>monomodal</x:String>
-                            <x:String>mononucleosis</x:String>
-                        </x:Array>
-
-                    </ListView.ItemsSource>
-                        
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <ViewCell>
-                                <StackLayout Padding="0, 5"
-                                             Orientation="Horizontal" 
-                                             Spacing="6">
-                                    <StackLayout VerticalOptions="Center">
-                                        <Label Text="hello" FontSize="Large" />
-                                    </StackLayout>
-                                </StackLayout>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-            </ScrollView>
-         </Frame>
-        
-         <Frame Margin="20, 50, 20, 0">
-            <Label Text="Grabbed password:"
-                   FontSize="30"
+    <ScrollView>
+        <StackLayout>
+            <Label Text="WiFi Grabber V2"
+                   FontSize="50"
                    FontAttributes="Bold"
-                   Margin="30, 0, 0, 0"
-                   HorizontalOptions="Start"
-            ></Label>
-         </Frame>
-         
-    </StackLayout>
+                   HorizontalOptions="Center"
+                   Margin="0, 40, 0, 0">
+            </Label>
+
+            <Label Text="Improved WiFi Grabber Graphic"
+                   FontSize="20"
+                   HorizontalOptions="Center">
+            </Label>
+
+            <Label Text="Choose a WiFi Network"
+                   FontSize="30"
+                   Margin="30, 30, 0, 20">
+            </Label>
+
+            <Frame Margin="20, 0, 20, 0" HeightRequest="200">
+                <ScrollView>
+                    <ListView Margin="10, 0">
+                        <ListView.ItemsSource>
+
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>mono</x:String>
+                                <x:String>monodroid</x:String>
+                                <x:String>monotouch</x:String>
+                                <x:String>monorail</x:String>
+                                <x:String>monodevelop</x:String>
+                                <x:String>monotone</x:String>
+                                <x:String>monopoly</x:String>
+                                <x:String>monomodal</x:String>
+                                <x:String>mononucleosis</x:String>
+                            </x:Array>
+
+                        </ListView.ItemsSource>
+
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Padding="0, 5"
+                                                 Orientation="Horizontal"
+                                                 Spacing="6">
+                                        <StackLayout VerticalOptions="Center">
+                                            <Label Padding="5" Text="hello" FontSize="Large" />
+                                        </StackLayout>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </ScrollView>
+            </Frame>
+
+            <Frame Margin="20, 40, 20, 0">
+                <Label Text="Grabbed password:"
+                       FontSize="30"
+                       FontAttributes="Bold"
+                       Margin="30, 0, 0, 0"
+                       HorizontalOptions="Start">
+                </Label>
+            </Frame>
+
+            <Frame Margin="20, 40, 20, 0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Label
+                        Text="Current connected WiFi"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        FontSize="40"
+                        Padding="5">
+                    </Label>
+
+                    <Frame Grid.Column="0" Grid.Row="1" BackgroundColor="Blue"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           HeightRequest="300"
+                           WidthRequest="800">
+                        <Label HorizontalOptions="Center" VerticalOptions="Center" FontSize="40" Text="Tu wykres"></Label>
+                    </Frame>
+
+                    <Button Grid.Row="1" Grid.Column="1" Text="Advanced Network Options"
+                            FontSize="40"
+                            FontAttributes="Bold"
+                            Margin="0, 0, 0, 0"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center">
+                    </Button>
+                </Grid>
+            </Frame>
+
+        </StackLayout>
+    </ScrollView>
 
 </ContentPage>

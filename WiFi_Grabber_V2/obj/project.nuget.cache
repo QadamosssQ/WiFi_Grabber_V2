@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lb1R0RIXxhbe06jThPUExS2uxwpT0oX88f9ooUkEgPQGlDRBI2lL504iGyoppBWETibW3KLd2uNlrTtJrmJRBw==",
+  "dgSpecHash": "QWaAL1paAVyAjku0ygqoA7yDQllyT+TS+G+c0U8QONUND+3abGbEQsYaPP07hRaUkrKeGeAokWYGfVnxjNrAvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sedki\\RiderProjects\\WiFi_Grabber_V2\\WiFi_Grabber_V2\\WiFi_Grabber_V2.csproj",
+  "projectFilePath": "C:\\Users\\sedki\\RiderProjects\\WiFi_Grabber_V2.1\\WiFi_Grabber_V2\\WiFi_Grabber_V2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sedki\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\sedki\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

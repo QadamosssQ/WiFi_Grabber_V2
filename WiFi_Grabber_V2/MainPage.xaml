@@ -23,39 +23,54 @@
             </Label>
 
             <Frame Margin="20, 0, 20, 0" HeightRequest="200">
+                <!-- <ScrollView> -->
+                <!--     <ListView Margin="10, 0"> -->
+                <!--         <ListView.ItemsSource> -->
+                <!-- -->
+                <!--             <x:Array Type="{x:Type x:String}"> -->
+                <!--                 <x:String>mono</x:String> -->
+                <!--                 <x:String>monodroid</x:String> -->
+                <!--                 <x:String>monotouch</x:String> -->
+                <!--                 <x:String>monorail</x:String> -->
+                <!--                 <x:String>monodevelop</x:String> -->
+                <!--                 <x:String>monotone</x:String> -->
+                <!--                 <x:String>monopoly</x:String> -->
+                <!--                 <x:String>monomodal</x:String> -->
+                <!--                 <x:String>mononucleosis</x:String> -->
+                <!--             </x:Array> -->
+                <!-- -->
+                <!--         </ListView.ItemsSource> -->
+                <!-- -->
+                <!--         <ListView.ItemTemplate> -->
+                <!--             <DataTemplate> -->
+                <!--                 <ViewCell> -->
+                <!--                     <StackLayout Padding="0, 5" -->
+                <!--                                  Orientation="Horizontal" -->
+                <!--                                  Spacing="6"> -->
+                <!--                         <StackLayout VerticalOptions="Center"> -->
+                <!--                             <Label Padding="5" Text="hello" FontSize="Large" /> -->
+                <!--                         </StackLayout> -->
+                <!--                     </StackLayout> -->
+                <!--                 </ViewCell> -->
+                <!--             </DataTemplate> -->
+                <!--         </ListView.ItemTemplate> -->
+                <!--     </ListView> -->
+                <!-- </ScrollView> -->
+
                 <ScrollView>
-                    <ListView Margin="10, 0">
-                        <ListView.ItemsSource>
-
-                            <x:Array Type="{x:Type x:String}">
-                                <x:String>mono</x:String>
-                                <x:String>monodroid</x:String>
-                                <x:String>monotouch</x:String>
-                                <x:String>monorail</x:String>
-                                <x:String>monodevelop</x:String>
-                                <x:String>monotone</x:String>
-                                <x:String>monopoly</x:String>
-                                <x:String>monomodal</x:String>
-                                <x:String>mononucleosis</x:String>
-                            </x:Array>
-
-                        </ListView.ItemsSource>
-
+                    <ListView x:Name="FruitListView" ItemsSource="{Binding Fruits}" Margin="10, 0" SelectedItem="{Binding SelectedFruit}">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
-                                    <StackLayout Padding="0, 5"
-                                                 Orientation="Horizontal"
-                                                 Spacing="6">
-                                        <StackLayout VerticalOptions="Center">
-                                            <Label Padding="5" Text="hello" FontSize="Large" />
-                                        </StackLayout>
+                                    <StackLayout Padding="5">
+                                        <Label Text="{Binding FruitName}" FontSize="Large" />
                                     </StackLayout>
                                 </ViewCell>
                             </DataTemplate>
                         </ListView.ItemTemplate>
-                    </ListView>
+                    </ListView>  
                 </ScrollView>
+
             </Frame>
 
             <Frame Margin="20, 40, 20, 0">
@@ -67,42 +82,13 @@
                 </Label>
             </Frame>
 
-            <Frame Margin="20, 40, 20, 0">
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"></ColumnDefinition>
-                        <ColumnDefinition Width="*"></ColumnDefinition>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="*"></RowDefinition>
-                        <RowDefinition Height="*"></RowDefinition>
-                    </Grid.RowDefinitions>
-
-                    <Label
-                        Text="Current connected WiFi"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        FontSize="40"
-                        Padding="5">
-                    </Label>
-
-                    <Frame Grid.Column="0" Grid.Row="1" BackgroundColor="Blue"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center"
-                           HeightRequest="300"
-                           WidthRequest="800">
-                        <Label HorizontalOptions="Center" VerticalOptions="Center" FontSize="40" Text="Tu wykres"></Label>
-                    </Frame>
-
-                    <Button Grid.Row="1" Grid.Column="1" Text="Advanced Network Options"
-                            FontSize="40"
-                            FontAttributes="Bold"
-                            Margin="0, 0, 0, 0"
-                            HorizontalOptions="Center"
-                            VerticalOptions="Center">
-                    </Button>
-                </Grid>
-            </Frame>
+            <Button Text="Advanced Network Options"
+                    FontSize="30"
+                    FontAttributes="Bold"
+                    Margin="0, 100, 0, 0"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+            </Button>
 
         </StackLayout>
     </ScrollView>

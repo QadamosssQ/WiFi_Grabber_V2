@@ -24019,11 +24019,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sedki\\RiderProjects\\WiFi_Grabber_V2\\WiFi_Grabber_V2\\WiFi_Grabber_V2.csproj",
+      "projectUniqueName": "C:\\Users\\sedki\\RiderProjects\\WiFi_Grabber_V2.1\\WiFi_Grabber_V2\\WiFi_Grabber_V2.csproj",
       "projectName": "WiFi_Grabber_V2",
-      "projectPath": "C:\\Users\\sedki\\RiderProjects\\WiFi_Grabber_V2\\WiFi_Grabber_V2\\WiFi_Grabber_V2.csproj",
+      "projectPath": "C:\\Users\\sedki\\RiderProjects\\WiFi_Grabber_V2.1\\WiFi_Grabber_V2\\WiFi_Grabber_V2.csproj",
       "packagesPath": "C:\\Users\\sedki\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sedki\\RiderProjects\\WiFi_Grabber_V2\\WiFi_Grabber_V2\\obj\\",
+      "outputPath": "C:\\Users\\sedki\\RiderProjects\\WiFi_Grabber_V2.1\\WiFi_Grabber_V2\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

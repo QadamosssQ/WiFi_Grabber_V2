@@ -22,15 +22,16 @@
                    Margin="30, 30, 0, 20">
             </Label>
 
-            <Frame Margin="20, 0, 20, 0" HeightRequest="200">
-                
+            <Frame Margin="20, 0, 20, 0" HeightRequest="300">
+
                 <ScrollView>
-                    <ListView x:Name="NetworkListView" ItemsSource="{Binding Networks}" Margin="10, 0" SelectedItem="{Binding SelectedNetwork}">
+                    <ListView x:Name="NetworkListView" ItemsSource="{Binding Networks}" Margin="10, 0"
+                              SelectedItem="{Binding SelectedNetwork}">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
                                     <StackLayout Padding="5">
-                                        <Label Text="{Binding NetworkName}" FontSize="Large" />
+                                        <Label Text="{Binding NetworkName}" FontSize="Large" TextColor="White" />
                                     </StackLayout>
                                 </ViewCell>
                             </DataTemplate>
@@ -38,15 +39,16 @@
                     </ListView>
                 </ScrollView>
 
-
             </Frame>
 
             <Frame Margin="20, 40, 20, 0">
-                <Label Text="Grabbed password:"
-                       FontSize="30"
-                       FontAttributes="Bold"
-                       Margin="30, 0, 0, 0"
-                       HorizontalOptions="Start">
+                <Label
+                    x:Name="PasswordLabel"
+                    Text="Grabbed password:"
+                    FontSize="30"
+                    FontAttributes="Bold"
+                    Margin="30, 0, 0, 0"
+                    HorizontalOptions="Start">
                 </Label>
             </Frame>
 

@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = WiFi_Grabber_V2
-build_property.ProjectDir = C:\Users\adamo\RiderProjects\WiFi_Grabber_V2\WiFi_Grabber_V2\
+build_property.ProjectDir = C:\Users\sedki\RiderProjects\WiFi_Grabber_V2.1\WiFi_Grabber_V2\
 
-[C:/Users/adamo/RiderProjects/WiFi_Grabber_V2/WiFi_Grabber_V2/App.xaml]
+[C:/Users/sedki/RiderProjects/WiFi_Grabber_V2.1/WiFi_Grabber_V2/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WiFi_Grabber_V2.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/adamo/RiderProjects/WiFi_Grabber_V2/WiFi_Grabber_V2/AppShell.xaml]
+[C:/Users/sedki/RiderProjects/WiFi_Grabber_V2.1/WiFi_Grabber_V2/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WiFi_Grabber_V2.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/adamo/RiderProjects/WiFi_Grabber_V2/WiFi_Grabber_V2/MainPage.xaml]
+[C:/Users/sedki/RiderProjects/WiFi_Grabber_V2.1/WiFi_Grabber_V2/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WiFi_Grabber_V2.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/adamo/RiderProjects/WiFi_Grabber_V2/WiFi_Grabber_V2/Resources/Styles/Colors.xaml]
+[C:/Users/sedki/RiderProjects/WiFi_Grabber_V2.1/WiFi_Grabber_V2/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WiFi_Grabber_V2.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/adamo/RiderProjects/WiFi_Grabber_V2/WiFi_Grabber_V2/Resources/Styles/Styles.xaml]
+[C:/Users/sedki/RiderProjects/WiFi_Grabber_V2.1/WiFi_Grabber_V2/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WiFi_Grabber_V2.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

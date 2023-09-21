@@ -45,7 +45,7 @@ namespace WiFi_Grabber_V2
             NetworkListView.ItemTapped += OnNetworkListViewItemTapped;
         }
 
-        private async void OnNetworkListViewItemTapped(object sender, ItemTappedEventArgs e)
+        private void OnNetworkListViewItemTapped(object sender, ItemTappedEventArgs e)
         {
             if (e.Item is Network selectedNetwork)
             {

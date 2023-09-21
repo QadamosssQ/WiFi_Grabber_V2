@@ -1,0 +1,33 @@
+﻿                <!-- <ScrollView> -->
+                <!--     <ListView Margin="10, 0"> -->
+                <!--         <ListView.ItemsSource> -->
+                <!-- -->
+                <!--             <x:Array Type="{x:Type x:String}"> -->
+                <!--                 <x:String>mono</x:String> -->
+                <!--                 <x:String>monodroid</x:String> -->
+                <!--                 <x:String>monotouch</x:String> -->
+                <!--                 <x:String>monorail</x:String> -->
+                <!--                 <x:String>monodevelop</x:String> -->
+                <!--                 <x:String>monotone</x:String> -->
+                <!--                 <x:String>monopoly</x:String> -->
+                <!--                 <x:String>monomodal</x:String> -->
+                <!--                 <x:String>mononucleosis</x:String> -->
+                <!--             </x:Array> -->
+                <!-- -->
+                <!--         </ListView.ItemsSource> -->
+                <!-- -->
+                <!--         <ListView.ItemTemplate> -->
+                <!--             <DataTemplate> -->
+                <!--                 <ViewCell> -->
+                <!--                     <StackLayout Padding="0, 5" -->
+                <!--                                  Orientation="Horizontal" -->
+                <!--                                  Spacing="6"> -->
+                <!--                         <StackLayout VerticalOptions="Center"> -->
+                <!--                             <Label Padding="5" Text="hello" FontSize="Large" /> -->
+                <!--                         </StackLayout> -->
+                <!--                     </StackLayout> -->
+                <!--                 </ViewCell> -->
+                <!--             </DataTemplate> -->
+                <!--         </ListView.ItemTemplate> -->
+                <!--     </ListView> -->
+                <!-- </ScrollView> -->

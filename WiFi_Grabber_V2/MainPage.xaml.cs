@@ -84,8 +84,8 @@ namespace WiFi_Grabber_V2
                 if (line.Contains("    Key Content            : "))
                 {
                     a++;
-                    string linia_1 = line.Replace("    Key Content            : ", "");
-                    sieci[0] = linia_1;
+                    string linia1 = line.Replace("    Key Content            : ", "");
+                    sieci[0] = linia1;
                 }
             }
 

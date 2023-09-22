@@ -22,7 +22,7 @@
                    Margin="30, 30, 0, 20">
             </Label>
 
-            <Frame Margin="20, 0, 20, 0" HeightRequest="300">
+            <Frame Margin="20, 0, 20, 0" HeightRequest="250">
 
                 <ScrollView>
                     <ListView x:Name="NetworkListView" ItemsSource="{Binding Networks}" Margin="10, 0"
